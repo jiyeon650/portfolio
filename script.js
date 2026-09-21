@@ -30,7 +30,7 @@ const revealObserver = new IntersectionObserver(
       }
     });
   },
-  { threshold: 0.12 }
+  { threshold: 0.2 }
 );
 
 document.querySelectorAll(".reveal").forEach((element) => {
